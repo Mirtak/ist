@@ -12,4 +12,4 @@ jobs:
       - name: Install dependencies  
         run: pip install requests pytest jsonschema  
       - name: Run tests  
-        run: pytest TP6.py -v  
+        run: pytest test-api.py -v  
